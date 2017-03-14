@@ -1,0 +1,25 @@
+form:
+  label: react-coponent
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+
+        - name: title
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Title
+          
+        - name: desc
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Desc
+          
+        - name: abstract
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Abstract
+          
+        
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

@@ -1,0 +1,10 @@
+title: react-component
+renderType: freemarker
+templateScript: /react-component/templates/components/react-component.ftl
+dialog: react-component:components/react-component
+parameters:
+  name: hoj
+
+variations:
+  js:
+    templateScript: /react-component/templates/components/react-component.js
